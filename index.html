@@ -4,8 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home page</title>
+  <link rel="stylesheet" href="../../dist/styles/index.css">
 </head>
-<body>
-  <h1>This is a homepage</h1>
+<body class="homepage">
+  <h1>Welcome to Chat app</h1>
+  <form name="login-form" action="#">
+    <label for="login-form">If you already have an account</label>
+    <input type="email" placeholder="Enter your email">
+    <input type="password" placeholder="Enter your password">
+    <input type="submit">
+  </form>
+  <form name="register-form" action="#">
+    <label for="register-form">If you don't have an account yet</label>
+    <input type="email" placeholder="Enter your email">
+    <input type="text" placeholder="Enter your account name">
+    <input type="password" placeholder="Enter your password">
+    <input type="password" placeholder="Enter your password again">
+    <input type="submit">
+  </form>
 </body>
 </html>
